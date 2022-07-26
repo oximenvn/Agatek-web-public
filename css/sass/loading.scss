@@ -1,0 +1,74 @@
+@import "var";
+@import "base";
+
+.aps-loading{
+	@include fixed(0);
+	background: rgba(#000, 0.95);
+	z-index: 99999999;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s ease-in-out;
+	&.active{
+		opacity: 1;
+		visibility: visible;
+	}
+	&>img{
+		@extend %img-center;
+		width: 160px;
+		zoom: 1.4;
+		animation: light 1.5s linear infinite;
+	}
+	.ct{
+		width: 90px;
+		height: 100px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -25px;
+		margin-left: -45px;
+		span{
+			display: inline-block;
+			position: absolute;
+			width: 10px;
+			height: 10px;
+			background-color: #fff;
+			border-radius: 50%;
+			&:first-child{
+				bottom: 0;
+				left: 0;
+				animation: hcload1 1.75s linear infinite;
+			}
+			&:nth-child(2){
+				left: calc(50% - 5px);
+				bottom: 0;
+				animation: hcload2 1.75s linear infinite;
+			}
+			&:nth-child(3){
+				bottom: 0;
+				right: 0;
+				animation: hcload3 1.75s linear infinite;
+			}
+		}
+	}
+}
+@keyframes light {
+	0%{filter: brightness(100%);}
+	50%{opacity: 0.5;filter: brightness(50%);}
+	100%{opacity: 1;filter: brightness(0%);}
+}
+
+@keyframes hcload1 {
+	33.33%{transform: translate(0,10px);}
+	66.66%{transform: translate(0,-10px);}
+	100%{transform: translate(0,0);}
+}
+@keyframes hcload2 {
+	33.33%{transform: translate(0,5px);}
+	66.66%{transform: translate(0,-5px);}
+	100%{transform: translate(0,0);}
+}
+@keyframes hcload3 {
+	33.33%{transform: translate(0,10px);}
+	66.66%{transform: translate(0,-10px);}
+	100%{transform: translate(0,0);}
+}
