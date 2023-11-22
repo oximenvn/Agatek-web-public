@@ -1,4 +1,4 @@
-# SORAI-web-public
-SORAI-web-public
+# AGATEK-web-public
+AGATEK-web-public
 
-SORAI JSC. All Rights Reserved.
+AGATEK JSC. All Rights Reserved.
