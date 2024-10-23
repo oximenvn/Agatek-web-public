@@ -1,326 +1,843 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charSet="utf-8" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>agetek Website</title>
-  <link rel="stylesheet" href="./assets/css/index.css">
-  <link rel="stylesheet" href="./assets/css/service.css">
-  <link rel="stylesheet" href="./assets/css/project.css">
-  <link rel="stylesheet" href="./assets/css/news.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet">
-  <style>
-    body {
-      font-family: "Bai Jamjuree", sans-serif;
+  <meta name="next-head-count" content="5" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="/_next/static/css/65aa3619a1925c9d.css" as="style" />
+  <link rel="stylesheet" href="/_next/static/css/65aa3619a1925c9d.css" data-n-p="" />
+  <link rel="preload" href="/_next/static/css/edce422824c46dba.css" as="style" />
+  <link rel="stylesheet" href="/_next/static/css/edce422824c46dba.css" data-n-p="" />
+  <link rel="preload" href="/_next/static/css/8a5c722bc9559071.css" as="style" />
+  <link rel="stylesheet" href="/_next/static/css/8a5c722bc9559071.css" data-n-p="" /><noscript data-n-css=""></noscript>
+  <script defer="" nomodule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js"></script>
+  <script src="/_next/static/chunks/webpack-4e4bb5dac96decf1.js" defer=""></script>
+  <script src="/_next/static/chunks/framework-49e5e02b282f8405.js" defer=""></script>
+  <script src="/_next/static/chunks/main-3e69d304ccce4584.js" defer=""></script>
+  <script src="/_next/static/chunks/pages/_app-72b849fbd24ac258.js" defer=""></script>
+  <script src="/_next/static/chunks/b637e9a5-e355f6d0a964424f.js" defer=""></script>
+  <script src="/_next/static/chunks/472-ac006301b5e5e96d.js" defer=""></script>
+  <script src="/_next/static/chunks/41-b42406e8d3ac5447.js" defer=""></script>
+  <script src="/_next/static/chunks/pages/index-a7e7bc3f8a4a2953.js" defer=""></script>
+  <script src="/_next/static/xgHZiLJWnZ8WithJKpKVr/_buildManifest.js" defer=""></script>
+  <script src="/_next/static/xgHZiLJWnZ8WithJKpKVr/_ssgManifest.js" defer=""></script>
+  <style
+    data-href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap">
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 200;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_oGkpoy.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_pikZoy.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIrapSCOBt_aeQQ7ftydoa8W8LN.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_o6kJoy.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_oWl5oy.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_pylpoy.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 200;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0kePukA.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa09eDukA.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDI1apSCOBt_aeQQ7ftydoaMWg.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0reHukA.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0gebukA.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa05efukA.woff) format('woff')
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 200;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_oGkqoi0yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 200;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_oGkqo50yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 200;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_oGkqo40yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 200;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_oGkqo20yygg_vb.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_pikaoi0yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_pikao50yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_pikao40yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_pikao20yygg_vb.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIrapSCOBt_aeQQ7ftydoa8W_Lds78b8SGKufI.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIrapSCOBt_aeQQ7ftydoa8W_LGs78b8SGKufI.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIrapSCOBt_aeQQ7ftydoa8W_LHs78b8SGKufI.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIrapSCOBt_aeQQ7ftydoa8W_LJs78b8SGK.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_o6kKoi0yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_o6kKo50yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_o6kKo40yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_o6kKo20yygg_vb.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_oWl6oi0yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_oWl6o50yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_oWl6o40yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_oWl6o20yygg_vb.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_pylqoi0yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_pylqo50yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_pylqo40yygg_vbd-E.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: italic;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIoapSCOBt_aeQQ7ftydoa8W_pylqo20yygg_vb.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 200;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0kePegJo02SuCgcva.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 200;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0kePem5o02SuCgcva.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 200;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0kePempo02SuCgcva.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 200;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0kePelJo02SuCgQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa09eDegJo02SuCgcva.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa09eDem5o02SuCgcva.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa09eDempo02SuCgcva.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa09eDelJo02SuCgQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDI1apSCOBt_aeQQ7ftydoa8SsLLubg58xGL.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDI1apSCOBt_aeQQ7ftydoa8UcLLubg58xGL.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDI1apSCOBt_aeQQ7ftydoa8UMLLubg58xGL.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDI1apSCOBt_aeQQ7ftydoa8XsLLubg58w.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0reHegJo02SuCgcva.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0reHem5o02SuCgcva.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0reHempo02SuCgcva.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0reHelJo02SuCgQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0gebegJo02SuCgcva.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0gebem5o02SuCgcva.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0gebempo02SuCgcva.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa0gebelJo02SuCgQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa05efegJo02SuCgcva.woff2) format('woff2');
+      unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa05efem5o02SuCgcva.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa05efempo02SuCgcva.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: 'Bai Jamjuree';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa05efelJo02SuCgQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
     }
   </style>
 </head>
 
 <body>
-  <!-- menu header -->
-  <div class="menu-header-fixed">
-    <div class="header-container">
-      <div class="header-left">
-        <img src="./assets/images/logo.png" class="logo-header" />
-      </div>
-      <div class="header-right">
-        <ul class="menu-header">
-          <li><a href="#">Giới thiệu</a></li>
-          <li><a href="#">Dịch vụ</a></li>
-          <li><a href="#">Dự án</a></li>
-          <li><a href="#">Tin tức</a></li>
-          <li><a href="#">Liên hệ</a></li>
-        </ul>
-        <div class="language-change">
-          <a href="/jp">JP</a>
-          <a href="/vn" class="active-language">VN</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- main banner  -->
-  <div class="banner-container">
-    <img class="image-home" src="./assets/images/banner-home.png" alt="banner home" />
-    <div class="box-content-banner">
-      <div class="title-top">Cầu nối công nghệ <br /> Việt - Nhật</div>
-      <div class="button-banner">
-        <div class="btn-orange">Khám phá ngay</div>
-        <div class="btn-blue">Xem dự án</div>
-      </div>
-    </div>
-  </div>
-  <!-- about -->
-  <div class="about-container">
-    <div class="row-item-about">
-      <div class="about-left">
-        <img class="image-header" src="./assets/images/text-style-agatek.png" alt="" />
-        <div class="title">Giải pháp công nghệ đột phá cho doanh nghiệp của bạn</div>
-        <div class="description">
-          Là cầu nối công nghệ Việt - Nhật, <br />
-          <a href="#">AGATEK TECHNOLOGY</a> cung cấp giải pháp dịch vụ công nghệ thông tin toàn diện, bao gồm:
-          SES/Bodyshop, BPO, IT
-          Service, Labo, Outsource. <br />
-          <br />
-
-          Với đội ngũ kỹ sư tài năng, giàu kinh nghiệm, am hiểu thị trường Nhật Bản, chúng tôi cam kết mang đến cho
-          khách hàng dịch vụ chất lượng cao với chi phí tối ưu, giúp doanh nghiệp nâng cao hiệu quả hoạt động, tối ưu
-          hóa quy trình và tăng cường lợi thế cạnh tranh trong thời đại số.
-        </div>
-      </div>
-      <div class="about-right">
-        <img class="image-about-right" src="./assets/images/banner-about.png" alt="" />
-      </div>
-    </div>
-    <div class="row-item-footer">
-      <img class="text-about-right" src="./assets/images/text-style-techlonogy.png" alt="" />
-    </div>
-  </div>
-  <!-- service -->
-  <div class="service-container">
-    <div class="title-service">Dịch vụ của chúng tôi</div>
-    <div class="list-service">
-      <div class="service-item">
-        <div class="style-item-service">
-          <img class="img-item" src="./assets/images/service-1.png" alt="" />
-          <div class="title-item">Dịch vụ kỹ sư cầu nối</div>
-          <div class="description-item">Cung cấp kỹ sư CNTT chất lượng cao, am hiểu văn hóa và ngôn ngữ Nhật Bản.</div>
-        </div>
-      </div>
-      <div class="service-item">
-        <div class="style-item-service">
-          <img class="img-item" src="./assets/images/service-2.png" alt="" />
-          <div class="title-item"> Dịch vụ gia công quy trình DN</div>
-          <div class="description-item">Nâng cao hiệu quả hoạt động, giảm thiểu chi phí với giải pháp BPO tối ưu.</div>
-        </div>
-      </div>
-      <div class="service-item">
-        <div class="style-item-service">
-          <img class="img-item" src="./assets/images/service-3.png" alt="" />
-          <div class="title-item">Dịch vụ nghiên cứu và phát triển</div>
-          <div class="description-item">Biến ý tưởng thành hiện thực với dịch vụ Labo chuyên nghiệp, sáng tạo.</div>
-        </div>
-      </div>
-      <div class="service-item">
-        <div class="style-item-service">
-          <img class="img-item" src="./assets/images/service-4.png" alt="" />
-          <div class="title-item">Dịch vụ phát triển phần mềm</div>
-          <div class="description-item">Đảm bảo chất lượng phần mềm với dịch vụ kiểm thử và bảo trì chuyên nghiệp.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- project -->
-  <div class="project-container">
-    <div class="project-fixed">
-      <div class="project-left">
-        <div class="project-title">Dự án</div>
-        <div class="note-title">Dự án tiêu biểu</div>
-      </div>
-    </div>
-    <div class="project-right">
-      <div class="project-item-content">
-        <img class="image-project" src="./assets/images/project-image-1.png" />
-        <div class="project-content-footer">
-          <div class="footer-left">
-            <div class="title">software development</div>
-            <div class="name-project">Khuyến mãi DX dành cho các nhà bán lẻ lớn</div>
-            <div class="content-bottom">
-              <img class="img-arrow" src="./assets/images/arrow-up.png" alt="" /> <span class="number">200</span>
-              <div class="name-position">Cửa hàng đang sử dụng</div>
-            </div>
+  <div id="__next">
+    <div>
+      <div class="scroll-to-top-function"><img src="/_next/static/media/scroll-to-top.5cf94bf6.png" class="img-scroll"
+          alt="" /></div>
+      <div class="menu-header-fixed">
+        <div class="header-container">
+          <div class="header-left"><img src="/_next/static/media/logo.d0c46a10.png" class="logo-header" /></div>
+          <div class="header-right">
+            <ul class="menu-header ">
+              <li class=""><a href="/">Giới thiệu</a></li>
+              <li class=""><a href="/service">Dịch vụ</a></li>
+              <li class=""><a href="/project">Dự án</a></li>
+              <li class=""><a href="/news">Tin tức</a></li>
+              <li class=""><a href="/contact">Liên hệ</a></li>
+            </ul>
+            <div class="language-change"><a href="/">JP</a><a class="active-language" href="/">VN</a></div>
+            <div class="menu-icon-mobile"><img src="/_next/static/media/icon-menu.f27afde9.png" class="icon-show"
+                alt="" /></div>
           </div>
-          <div class="footer-right">
-            <div class="description-project">Việc di chuyển được thực hiện bằng hệ thống quản lý sản xuất năng lượng mặt
-              trời nội bộ ở Hokkaido.
-              toàn bộ máy chủ theo hợp đồng PAAS của trung tâm dữ liệu nhằm tiết kiệm dung lượng máy chủ và giảm bớt
-              công việc bảo trì phần cứng.</div>
-            <div class="view-more">
-              Xem thêm <img class="icon-arrow-right" src="./assets/images/icon-arrow-right.png" alt="" />
+        </div>
+      </div>
+      <div class="container-app">
+        <div class="banner-container"><img class="image-home" data-aos="fade-up"
+            src="/_next/static/media/banner-home.4d0ab20f.png" alt="banner home" />
+          <div class="box-content-banner">
+            <div class="title-top" data-aos="fade-up">Cầu nối công nghệ <br /> Việt - Nhật</div>
+            <div class="button-banner" data-aos="fade-down">
+              <div class="btn-orange">Khám phá ngay</div>
+              <div class="btn-blue">Xem dự án</div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="project-item-content">
-        <img class="image-project" src="./assets/images/project-image-2.png" />
-        <div class="project-content-footer">
-          <div class="footer-left">
-            <div class="title">software development</div>
-            <div class="name-project">Hệ thống đặt hàng hợp tác với các doanh nghiệp khác</div>
-            <div class="content-bottom">
-              <img class="img-arrow" src="./assets/images/arrow-up.png" alt="" /> <span class="number">200</span>
-              <div class="name-position">Cửa hàng đang sử dụng</div>
+        <div class="about-container">
+          <div class="row-item-about">
+            <div class="about-left" data-aos="fade-right"><img class="image-header"
+                src="/_next/static/media/text-style-agatek.8eacb9a4.png" alt="" />
+              <div class="title">Giải pháp công nghệ đột phá cho doanh nghiệp của bạn</div>
+              <div class="description">Là cầu nối công nghệ Việt - Nhật, <br /><a href="#">AGATEK TECHNOLOGY</a> cung
+                cấp giải pháp dịch vụ công nghệ thông tin toàn diện, bao gồm: SES/Bodyshop, BPO, IT Service, Labo,
+                Outsource. <br /><br />Với đội ngũ kỹ sư tài năng, giàu kinh nghiệm, am hiểu thị trường Nhật Bản, chúng
+                tôi cam kết mang đến cho khách hàng dịch vụ chất lượng cao với chi phí tối ưu, giúp doanh nghiệp nâng
+                cao hiệu quả hoạt động, tối ưu hóa quy trình và tăng cường lợi thế cạnh tranh trong thời đại số.</div>
+            </div>
+            <div class="about-right" data-aos="fade-left"><img class="image-about-right"
+                src="/_next/static/media/banner-about.df43c206.png" alt="" /></div>
+          </div>
+          <div class="row-item-footer" data-aos="fade-up"><img class="text-about-right"
+              src="/_next/static/media/text-style-techlonogy.f055e754.png" alt="" /></div>
+        </div>
+        <div class="service-container">
+          <div class="title-service">Dịch vụ của chúng tôi</div>
+          <div class="list-service">
+            <div class="service-item" data-aos="fade-right">
+              <div class="style-item-service"><img class="img-item" src="/_next/static/media/service-1.a139afac.png"
+                  alt="" />
+                <div class="title-item">Dịch vụ kỹ sư cầu nối</div>
+                <div class="description-item">Cung cấp kỹ sư CNTT chất lượng cao, am hiểu văn hóa và ngôn ngữ Nhật Bản.
+                </div>
+              </div>
+            </div>
+            <div class="service-item" data-aos="fade-left">
+              <div class="style-item-service"><img class="img-item" src="/_next/static/media/service-2.8ca0b353.png"
+                  alt="" />
+                <div class="title-item"> Dịch vụ gia công quy trình DN</div>
+                <div class="description-item">Nâng cao hiệu quả hoạt động, giảm thiểu chi phí với giải pháp BPO tối ưu.
+                </div>
+              </div>
+            </div>
+            <div class="service-item" data-aos="fade-right">
+              <div class="style-item-service"><img class="img-item" src="/_next/static/media/service-3.0bae5d4c.png"
+                  alt="" />
+                <div class="title-item">Dịch vụ nghiên cứu và phát triển</div>
+                <div class="description-item">Biến ý tưởng thành hiện thực với dịch vụ Labo chuyên nghiệp, sáng tạo.
+                </div>
+              </div>
+            </div>
+            <div class="service-item" data-aos="fade-left">
+              <div class="style-item-service"><img class="img-item" src="/_next/static/media/service-4.dbb10b93.png"
+                  alt="" />
+                <div class="title-item">Dịch vụ phát triển phần mềm</div>
+                <div class="description-item">Đảm bảo chất lượng phần mềm với dịch vụ kiểm thử và bảo trì chuyên nghiệp.
+                </div>
+              </div>
             </div>
           </div>
-          <div class="footer-right">
-            <div class="description-project">Ngoài việc đơn giản hóa các hoạt động đặt hàng của cửa hàng,
-              Hệ thống trực quan hóa tiến trình, kết quả, lịch sử đơn hàng của từng cửa hàng</div>
-            <div class="view-more">
-              Xem thêm <img class="icon-arrow-right" src="./assets/images/icon-arrow-right.png" alt="" />
+        </div>
+        <div class="project-container">
+          <div class="project-fixed">
+            <div class="project-left">
+              <div class="project-title">Dự án</div>
+              <div class="note-title">Dự án tiêu biểu</div>
+            </div>
+          </div>
+          <div class="project-right">
+            <div class="project-item-content"><img class="image-project"
+                src="/_next/static/media/project-image-1.d9052eb9.png" data-aos="fade-up" />
+              <div class="project-content-footer" data-aos="fade-down">
+                <div class="footer-left">
+                  <div class="title">software development</div>
+                  <div class="name-project">Khuyến mãi DX dành cho các nhà bán lẻ lớn</div>
+                  <div class="content-bottom"><img class="img-arrow" src="/_next/static/media/arrow-up.fdf08ebf.png"
+                      alt="" /> <span class="number">200</span>
+                    <div class="name-position">Cửa hàng đang sử dụng</div>
+                  </div>
+                </div>
+                <div class="footer-right" data-aos="fade-up">
+                  <div class="description-project">Việc di chuyển được thực hiện bằng hệ thống quản lý sản xuất năng
+                    lượng mặt trời nội bộ ở Hokkaido. toàn bộ máy chủ theo hợp đồng PAAS của trung tâm dữ liệu nhằm tiết
+                    kiệm dung lượng máy chủ và giảm bớt công việc bảo trì phần cứng.</div>
+                  <div class="view-more">Xem thêm <img class="icon-arrow-right"
+                      src="/_next/static/media/icon-arrow-right.5901186b.png" alt="" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-item-content"><img class="image-project"
+                src="/_next/static/media/project-image-2.3bba75fc.png" data-aos="fade-up" />
+              <div class="project-content-footer" data-aos="fade-down">
+                <div class="footer-left">
+                  <div class="title">software development</div>
+                  <div class="name-project">Hệ thống đặt hàng hợp tác với các doanh nghiệp khác</div>
+                  <div class="content-bottom"><img class="img-arrow" src="/_next/static/media/arrow-up.fdf08ebf.png"
+                      alt="" /> <span class="number">200</span>
+                    <div class="name-position">Cửa hàng đang sử dụng</div>
+                  </div>
+                </div>
+                <div class="footer-right" data-aos="fade-up">
+                  <div class="description-project">Ngoài việc đơn giản hóa các hoạt động đặt hàng của cửa hàng, Hệ thống
+                    trực quan hóa tiến trình, kết quả, lịch sử đơn hàng của từng cửa hàng</div>
+                  <div class="view-more">Xem thêm <img class="icon-arrow-right"
+                      src="/_next/static/media/icon-arrow-right.5901186b.png" alt="" /></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- customer  -->
-  <div class="customer-container">
-    <div class="title-customer">Khách hàng nói về chúng tôi</div>
-    <div class="list-customer">
-      <div class="item-customer">
-        <img class="img-cus" src="./assets/images/customer-1.png" alt="" />
-        <div class="title-item">営業本部</div>
-        <div class="description-item">CEO, 株式会社A</div>
-      </div>
-      <div class="item-customer">
-        <img class="img-cus" src="./assets/images/customer-2.png" alt="" />
-        <div class="title-item">営業本部</div>
-        <div class="description-item">CEO, 株式会社B</div>
-      </div>
-      <div class="item-customer">
-        <img class="img-cus" src="./assets/images/customer-3.png" alt="" />
-        <div class="title-item">営業本部</div>
-        <div class="description-item">CEO, 株式会社C</div>
-      </div>
-      <div class="item-customer">
-        <img class="img-cus" src="./assets/images/customer-4.png" alt="" />
-        <div class="title-item">営業本部</div>
-        <div class="description-item">CEO, 株式会社D</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- news -->
-  <div class="news-container">
-    <div class="header-news">
-      <div class="title-news">Tin tức & Kiến thức</div>
-      <div class="more-news">
-        Xem thêm <img class="arrow-right" src="./assets/images/icon-arrow-right.png" alt="" />
-      </div>
-    </div>
-    <div class="list-news">
-      <div class="item-news">
-        <img class="img-cus" src="./assets/images/example-news-1.png" alt="" />
-        <div class="title-item">Xu hướng công nghệ năm 2024</div>
-        <div class="description-item">Trong năm 2024, đa số lĩnh vực công nghệ xoay quanh trí tuệ nhân tạo (AI). Đồng
-          thời, 5G, thực tế ảo và thực tế tăng cường (VR/AR), Internet vạn vật (IoT),... cũng tiếp tục được dự đoán sẽ
-          là những công nghệ nổi bật.</div>
-        <div class="bottom-news">
-          <div class="date-news">2024.08.06</div>
-          <div class="tag-news" style="background-color: #1839b1;">Tin tức</div>
-        </div>
-      </div>
-      <div class="item-news">
-        <img class="img-cus" src="./assets/images/example-news-1.png" alt="" />
-        <div class="title-item">Xu hướng công nghệ năm 2024</div>
-        <div class="description-item">Trong năm 2024, đa số lĩnh vực công nghệ xoay quanh trí tuệ nhân tạo (AI). Đồng
-          thời, 5G, thực tế ảo và thực tế tăng cường (VR/AR), Internet vạn vật (IoT),... cũng tiếp tục được dự đoán sẽ
-          là những công nghệ nổi bật.</div>
-        <div class="bottom-news">
-          <div class="date-news">2024.08.06</div>
-          <div class="tag-news" style="background-color: #E97E00;">Kiến thức </div>
-        </div>
-      </div>
-      <div class="item-news">
-        <img class="img-cus" src="./assets/images/example-news-1.png" alt="" />
-        <div class="title-item">Xu hướng công nghệ năm 2024</div>
-        <div class="description-item">Trong năm 2024, đa số lĩnh vực công nghệ xoay quanh trí tuệ nhân tạo (AI). Đồng
-          thời, 5G, thực tế ảo và thực tế tăng cường (VR/AR), Internet vạn vật (IoT),... cũng tiếp tục được dự đoán sẽ
-          là những công nghệ nổi bật.</div>
-        <div class="bottom-news">
-          <div class="date-news">2024.08.06</div>
-          <div class="tag-news" style="background-color: #1839b1;">Tin tức</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- contact -->
-  <div class="contact-container">
-    <div class="title-contact">Tin tức & Kiến thức</div>
-    <div class="contact-main">
-      <div class="left-main">
-        <div>
-          <div class="item-row">
-            <img src="./assets/images/icon-mail.png" alt="" />
-            contact.agatek@gmail.com
-          </div>
-          <div class="item-row">
-            <img src="./assets/images/icon-location.png" alt="" />
-            132 Dartmouth Street Boston, <br /> Massachusetts 02156 United States
+        <div class="customer-container">
+          <div class="title-customer">Khách hàng nói về chúng tôi</div>
+          <div class="list-customer">
+            <div class="item-customer" data-aos="fade-up"><img class="img-cus"
+                src="/_next/static/media/customer-1.bc27aea6.png" alt="" />
+              <div class="title-item">営業本部</div>
+              <div class="description-item">CEO, 株式会社A</div>
+              <div class="description-more">Hợp tác với AGATEK TECHNOLOGY giúp chúng tôi tiếp cận nguồn nhân lực chất
+                lượng cao từ Việt Nam, góp phần quan trọng vào sự thành công của dự án</div>
+            </div>
+            <div class="item-customer" data-aos="fade-up"><img class="img-cus"
+                src="/_next/static/media/customer-2.41d9dc61.png" alt="" />
+              <div class="title-item">営業本部</div>
+              <div class="description-item">CEO, 株式会社B</div>
+              <div class="description-more">Hợp tác với AGATEK TECHNOLOGY giúp chúng tôi tiếp cận nguồn nhân lực chất
+                lượng cao từ Việt Nam, góp phần quan trọng vào sự thành công của dự án</div>
+            </div>
+            <div class="item-customer" data-aos="fade-up"><img class="img-cus"
+                src="/_next/static/media/customer-3.e0483e48.png" alt="" />
+              <div class="title-item">営業本部</div>
+              <div class="description-item">CEO, 株式会社C</div>
+              <div class="description-more">Hợp tác với AGATEK TECHNOLOGY giúp chúng tôi tiếp cận nguồn nhân lực chất
+                lượng cao từ Việt Nam, góp phần quan trọng vào sự thành công của dự án</div>
+            </div>
+            <div class="item-customer" data-aos="fade-up"><img class="img-cus"
+                src="/_next/static/media/customer-4.8d3c3df9.png" alt="" />
+              <div class="title-item">営業本部</div>
+              <div class="description-item">CEO, 株式会社D</div>
+              <div class="description-more">Hợp tác với AGATEK TECHNOLOGY giúp chúng tôi tiếp cận nguồn nhân lực chất
+                lượng cao từ Việt Nam, góp phần quan trọng vào sự thành công của dự án</div>
+            </div>
           </div>
         </div>
+        <div class="news-container">
+          <div class="header-news">
+            <div class="title-news">Tin tức &amp; Kiến thức</div>
+            <div class="more-news hidden-mobile">Xem thêm <img class="icon-arrow-right"
+                src="/_next/static/media/icon-arrow-right.5901186b.png" alt="" /></div>
+          </div>
+          <div class="list-news">
+            <div class="item-news" data-aos="fade-up"><img class="img-cus"
+                src="/_next/static/media/example-news-1.26e99183.png" alt="" />
+              <div class="title-item">Xu hướng công nghệ năm 2024</div>
+              <div class="description-item">Trong năm 2024, đa số lĩnh vực công nghệ xoay quanh trí tuệ nhân tạo (AI).
+                Đồng thời, 5G, thực tế ảo và thực tế tăng cường (VR/AR), Internet vạn vật (IoT),... cũng tiếp tục được
+                dự đoán sẽ là những công nghệ nổi bật.</div>
+              <div class="bottom-news">
+                <div class="date-news">2024.08.06</div>
+                <div class="tag-news" style="background-color:#1839b1">Tin tức</div>
+              </div>
+            </div>
+            <div class="item-news" data-aos="fade-up"><img class="img-cus"
+                src="/_next/static/media/example-news-1.26e99183.png" alt="" />
+              <div class="title-item">Xu hướng công nghệ năm 2024</div>
+              <div class="description-item">Trong năm 2024, đa số lĩnh vực công nghệ xoay quanh trí tuệ nhân tạo (AI).
+                Đồng thời, 5G, thực tế ảo và thực tế tăng cường (VR/AR), Internet vạn vật (IoT),... cũng tiếp tục được
+                dự đoán sẽ là những công nghệ nổi bật.</div>
+              <div class="bottom-news">
+                <div class="date-news">2024.08.06</div>
+                <div class="tag-news" style="background-color:#E97E00">Kiến thức </div>
+              </div>
+            </div>
+            <div class="item-news" data-aos="fade-up"><img class="img-cus"
+                src="/_next/static/media/example-news-1.26e99183.png" alt="" />
+              <div class="title-item">Xu hướng công nghệ năm 2024</div>
+              <div class="description-item">Trong năm 2024, đa số lĩnh vực công nghệ xoay quanh trí tuệ nhân tạo (AI).
+                Đồng thời, 5G, thực tế ảo và thực tế tăng cường (VR/AR), Internet vạn vật (IoT),... cũng tiếp tục được
+                dự đoán sẽ là những công nghệ nổi bật.</div>
+              <div class="bottom-news">
+                <div class="date-news">2024.08.06</div>
+                <div class="tag-news" style="background-color:#1839b1">Tin tức</div>
+              </div>
+            </div>
+          </div>
+          <div class="more-news hidden-pc">Xem thêm <img class="icon-arrow-right"
+              src="/_next/static/media/icon-arrow-right.5901186b.png" alt="" /></div>
+        </div>
+        <div class="contact-container">
+          <div class="title-contact">Liên hệ</div>
+          <div class="contact-main">
+            <div class="left-main" data-aos="fade-right">
+              <div>
+                <div class="item-row"><img src="/_next/static/media/icon-mail.8fad7cb6.png"
+                    alt="" />contact.agatek@gmail.com</div>
+                <div class="item-row"><img src="/_next/static/media/icon-location.9fc9a885.png" alt="" />132 Dartmouth
+                  Street Boston, <br /> Massachusetts 02156 United States</div>
+              </div>
+            </div>
+            <div class="right-main" data-aos="fade-left">
+              <div class="phone-main"><img src="/_next/static/media/icon-phone.06fb5b8b.png" alt="" />(+84)346-000-562
+              </div>
+              <div class="content-contact">Liên hệ với chúng tôi qua điện thoại<br />(Các ngày trong tuần 10:00-18:00)
+              </div>
+            </div>
+          </div>
+          <div class="btn-contact">Liên hệ với chúng tôi</div>
+        </div>
       </div>
-      <div class="right-main">
-        <div class="phone-main">
-          <img src="./assets/images/icon-phone.png" alt="" />
-          (+84)346-000-562
+      <div class="bg-footer-container">
+        <div class="footer-container">
+          <div class="footer-item-1" data-aos="fade-up"><img class="logo-footer"
+              src="/_next/static/media/logo-footer.63022334.png" />
+            <div class="title-footer">AGATEK TECHNOLOGY</div>
+            <div class="description-footer">Cầu nối công nghệ Việt - Nhật</div>
+          </div>
+          <div class="footer-item-2" data-aos="fade-up">
+            <div class="row-text-footer">
+              <div class="item-text-left">Địa chỉ:</div>
+              <div class="item-text-right">5th Floor, ACCI building, no. 210 Le Trong Tan Street, Khuong Mai Ward, Thanh
+                Xuan District, Hanoi, Vietnam. </div>
+            </div>
+            <div class="row-text-footer">
+              <div class="item-text-left">TEL: </div>
+              <div class="item-text-right"> (+84)346-000-562</div>
+            </div>
+            <div class="row-text-footer">
+              <div class="item-text-left">Email </div>
+              <div class="item-text-right">contact.agatek@gmail.com</div>
+            </div>
+          </div>
+          <div class="footer-item-3" data-aos="fade-up">
+            <div class="menu-footer">
+              <ul>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Dịch vụ</a></li>
+                <li><a href="#">Dự án</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Liên hệ</a></li>
+              </ul>
+            </div>
+            <div class="title-social">Theo dõi chúng tôi</div>
+            <div class="row-social"><a href="#"><img src="/_next/static/media/icon-facebook.9d2b4bf8.png"
+                  class="logo-social" /></a><a href="#"><img src="/_next/static/media/icon-twitter.825e8b5f.png"
+                  class="logo-social" /></a><a href="#"><img src="/_next/static/media/icon-linkinder.4766cde4.png"
+                  class="logo-social" /></a></div>
+          </div>
         </div>
-        <div class="content-contact">
-          Liên hệ với chúng tôi qua điện thoại<br />
-          (Các ngày trong tuần 10:00-18:00)
-        </div>
+      </div>
+      <div class="end-page">
+        <div class="text-page">© 2024 Agatek Technology</div>
       </div>
     </div>
-    <div class="btn-contact">
-      Liên hệ với chúng tôi
-    </div>
   </div>
-  <!-- footer -->
-  <div class="bg-footer-container">
-    <div class="footer-container">
-      <div class="footer-item-1">
-        <img class="logo-footer" src="./assets/images/logo-footer.png" />
-        <div class="title-footer">AGATEK TECHNOLOGY</div>
-        <div class="description-footer">Cầu nối công nghệ Việt - Nhật</div>
-      </div>
-      <div class="footer-item-2">
-        <div class="row-text-footer">
-          <div class="item-text-left">Địa chỉ:</div>
-          <div class="item-text-right">5th Floor, ACCI building, no. 210 Le Trong Tan Street, Khuong Mai Ward, Thanh
-            Xuan
-            District, Hanoi,
-            Vietnam. </div>
-        </div>
-        <div class="row-text-footer">
-          <div class="item-text-left">TEL: </div>
-          <div class="item-text-right"> (+84)346-000-562</div>
-        </div>
-        <div class="row-text-footer">
-          <div class="item-text-left">Email </div>
-          <div class="item-text-right">contact.agatek@gmail.com</div>
-        </div>
-      </div>
-      <div class="footer-item-3">
-        <div class="menu-footer">
-          <ul>
-            <li><a href="#">Giới thiệu</a></li>
-            <li><a href="#">Dịch vụ</a></li>
-            <li><a href="#">Dự án</a></li>
-            <li><a href="#">Tin tức</a></li>
-            <li><a href="#">Liên hệ</a></li>
-          </ul>
-        </div>
-        <div class="title-social">Theo dõi chúng tôi</div>
-        <div class="row-social">
-          <a href="#"><img src="./assets/images/icon-facebook.png" class="logo-social" /></a>
-          <a href="#"><img src="./assets/images/icon-twitter.png" class="logo-social" /></a>
-          <a href="#"><img src="./assets/images/icon-linkinder.png" class="logo-social" /></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end page -->
-  <div class="end-page">
-    <div class="text-page">© 2024 Agatek Technology</div>
-  </div>
+  <script id="__NEXT_DATA__"
+    type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"xgHZiLJWnZ8WithJKpKVr","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
 </body>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
 
 </html>
